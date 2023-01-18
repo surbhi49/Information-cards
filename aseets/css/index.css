@@ -1,0 +1,46 @@
+.flex{
+     display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+padding:2em;
+flex-direction: row;
+
+}
+.buttons{
+     text-align: center;
+     padding: 3em;
+}
+
+button{
+     border: none;
+border-radius: 8px;
+width: 100px;
+height: 40px;
+font-size: 12px;
+background-color: rgb(36, 78, 116);
+color: aliceblue;
+}
+.card{
+     margin-bottom: 1em;
+}
+.card-text{
+      display: grid;
+}
+.card-text a{
+     width: fit-content;
+     margin-bottom: 10px;
+}
+/* 
+.card{
+     width: 8rem !important;
+height: 9rem !important;
+}
+.card-body{
+     padding: 5px!important;
+     text-align: center !important;
+}
+.card-text{
+     font-size: 8px !important;
+     width: fit-content !important;
+}
+ */
